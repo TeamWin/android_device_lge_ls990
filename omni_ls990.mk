@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     device/lge/ls990/kernel:kernel \
+    device/lge/ls990/dtb:dtb \
     device/lge/ls990/img_info:img_info
 
 PRODUCT_COPY_FILES += device/lge/ls990/fstab.g3:recovery/root/fstab.g3
