@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +26,7 @@ BOARD_CUSTOM_BT_CONFIG := device/lge/ls990/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
+TARGET_KERNEL_CONFIG := lineageos_ls990_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
