@@ -38,7 +38,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/ls990/rootdir/etc/twrp.fstab
+#TARGET_RECOVERY_FSTAB := device/lge/ls990/rootdir/etc/twrp.fstab
 
 # RIL
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
